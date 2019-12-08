@@ -21,6 +21,13 @@ i = 0
 end
 
 def map_to_double()
+  i = 0
+  new_array = []
+  while i < array.length do
+    new_array << array[i]
+    i += 1
+  end
+  new_array
 end
 def map_to_square()
 end
