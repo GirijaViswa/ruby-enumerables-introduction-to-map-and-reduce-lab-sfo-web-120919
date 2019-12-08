@@ -47,6 +47,17 @@ def reduce_to_total(array)
   end
   new_array
 end
+
+def reduce_to_total(array,sp)
+  i = 0
+  new_array = sp
+  while i < array.length do
+    new_array += array[i]
+    i += 1
+  end
+  new_array
+end
+
 def reduce_to_all_true()
 end
 def reduce_to_any_true()
