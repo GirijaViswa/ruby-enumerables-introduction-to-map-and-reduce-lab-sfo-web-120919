@@ -24,12 +24,19 @@ def map_to_double()
   i = 0
   new_array = []
   while i < array.length do
-    new_array << array[i]
+    new_array << array[i] ** 2
     i += 1
   end
   new_array
 end
 def map_to_square()
+  i = 0
+  new_array = []
+  while i < array.length do
+    new_array << array[i] * array[i]
+    i += 1
+  end
+  new_array
 end
 def reduce_to_total()
 end
