@@ -60,4 +60,13 @@ end
 return true
 end
 def reduce_to_any_true()
+  i = 0
+  while i < array.length do
+    if !array[i] || array[i] == false
+      return false
+    else
+      i += 1
+  end
+end
+return true
 end
