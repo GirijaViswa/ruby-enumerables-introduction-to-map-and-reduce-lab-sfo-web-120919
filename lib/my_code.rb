@@ -20,7 +20,7 @@ i = 0
   new_array
 end
 
-def map_to_double()
+def map_to_double(array)
   i = 0
   new_array = []
   while i < array.length do
@@ -29,7 +29,7 @@ def map_to_double()
   end
   new_array
 end
-def map_to_square()
+def map_to_square(array)
   i = 0
   new_array = []
   while i < array.length do
